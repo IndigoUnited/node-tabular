@@ -2,7 +2,7 @@
 
 var Tabular = function (opt) {
     opt = opt || {};
-    
+
     this._padding     = opt.padding || 2;
     this._marginLeft  = opt.marginLeft || 0;
 //    this._width       = opt.width || (process.stdout.isTTY ? process.stdout.getWindowSize()[0] : 9999);
@@ -45,7 +45,7 @@ Tabular.prototype.get = function () {
     var rowPadding;
     for (i = 0; i < totalRows; ++i) {
         rowPadding = widestFirstCol - rows[i][0].length + padding;
-        result = result + repeat(' ', marginLeft) + rows[i][0] + repeat(' ', rowPadding) + rows[i][1] + '\n';
+        result = result + repeat(' ', marginLeft) + rows[i][0] + repeat(' ', rowPadding) + rows[i][1] + (i < (totalRows - 1) ? '\n' : '');
     }
 
     return result;
