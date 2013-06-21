@@ -1,7 +1,12 @@
-node-tabular
-============
+# tabular
 
-Create fluid lists in which the first column adapts to the content
+Create fluid lists in which the first column adapts to the content.
+
+
+## Installation
+
+`$ npm install tabular`
+
 
 ## Usage
 
@@ -23,3 +28,8 @@ tab.push(['of the', 'largest first column']);
 
 console.log(tab.get());
 ```
+
+
+## License
+
+Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).

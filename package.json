@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "description": "Create fluid lists in which the first column adapts to the content",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IndigoUnited/node-tabular.git"
   },
-  "repository": "git@github.com:IndigoUnited/node-tabular.git",
   "keywords": [
     "table",
     "column",

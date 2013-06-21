@@ -5,7 +5,7 @@ var Tabular = function (opt) {
 
     this._padding     = opt.padding || 2;
     this._marginLeft  = opt.marginLeft || 0;
-//    this._width       = opt.width || (process.stdout.isTTY ? process.stdout.getWindowSize()[0] : 9999);
+    //this._width       = opt.width || (process.stdout.isTTY ? process.stdout.getWindowSize()[0] : 9999);
 
     this._rows        = [];
 };
